@@ -1,0 +1,78 @@
+/* File: PhotoTourProject/CSS/style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: url('bacolod.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #f9f9f9;
+  line-height: 1.6;
+}
+
+header, nav, section, footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+header h1 {
+  color: #ffde59;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #0056b3;
+}
+
+section p {
+  font-size: 1.5em;
+  
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.custom-bullets {
+    font-size: 1.2em;
+  margin-top: 10px;
+  padding-left: 40px;
+  color: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9em;
+  color: #ccc;
+  margin: 0;
+}
+
+img {
+  max-width: 650px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
