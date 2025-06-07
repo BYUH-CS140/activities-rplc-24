@@ -1,0 +1,124 @@
+ body {
+            background-color: rgb(14, 14, 14);
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: rgb(236, 9, 9);
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        
+
+        
+        main {
+            padding: 20px;
+        }
+        
+        #mainTitle {
+            text-align: center;
+            font-style: italic;
+            font-size: 40px;
+            color: rgb(236, 9, 9);
+            margin: 20px 0;
+        }
+        
+        .pic {
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        img {
+            border: 3px solid black;
+            width: 100%;
+            height: auto;
+        }
+        
+        .content {
+            background-color: #222;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        
+        .content h2 {
+            color: rgb(236, 9, 9);
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        
+        /* Tablet Styles - 768px and up */
+        @media screen and (min-width: 768px) {
+            body {
+                font-size: 18px;
+            }
+            
+            header h1 {
+                font-size: 28px;
+            }
+            
+
+            
+            #mainTitle {
+                font-size: 50px;
+            }
+            
+            .pic {
+                width: 80%;
+                margin: 20px auto;
+            }
+            
+            /* Put content sections side by side */
+            .content-container {
+                display: flex;
+                gap: 20px;
+            }
+            
+            .content {
+                flex: 1;
+            }
+        }
+        
+        /* Desktop Styles - 1024px and up */
+        @media screen and (min-width: 1024px) {
+            body {
+                font-size: 20px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            
+            header h1 {
+                font-size: 32px;
+            }
+            
+            #mainTitle {
+                font-size: 60px;
+            }
+            
+            .pic {
+                width: 70%;
+            }
+            
+            /* Three-column layout for content */
+            .content-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 30px;
+            }
+        }
+
