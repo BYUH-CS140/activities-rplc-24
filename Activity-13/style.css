@@ -62,7 +62,7 @@
             margin-top: 40px;
         }
         
-        /* Tablet Styles - 768px and up */
+       
         @media screen and (min-width: 768px) {
             body {
                 font-size: 18px;
@@ -83,7 +83,7 @@
                 margin: 20px auto;
             }
             
-            /* Put content sections side by side */
+            
             .content-container {
                 display: flex;
                 gap: 20px;
@@ -94,7 +94,7 @@
             }
         }
         
-        /* Desktop Styles - 1024px and up */
+    
         @media screen and (min-width: 1024px) {
             body {
                 font-size: 20px;
@@ -114,7 +114,7 @@
                 width: 70%;
             }
             
-            /* Three-column layout for content */
+       
             .content-container {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
