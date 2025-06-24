@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback - Filipino Food Fun</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Send Us Feedback!</h1>
+    <p class="tagline">Let us know what you think of our website!</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="recipe.html">Sinigang Recipe</a></li>
+      <li><a href="more.html">More Recipes</a></li>
+      <li><a href="game.html">Game</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="form-section">
+      <form id="feedback-form" action="https://formspree.io/f/your_form_id" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name">
+          <p class="error-message" id="name-error"></p>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email">
+           <p class="error-message" id="email-error"></p>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+          <p class="error-message" id="message-error"></p>
+        </div>
+        <button type="submit" class="button">Submit Feedback</button>
+        <p id="success-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; Riley Colibao 2025
+  </footer>
+  
+  <!-- Link to the form's JavaScript file -->
+  <script src="js/forms.js"></script>
+</body>
+</html>
